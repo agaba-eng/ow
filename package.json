@@ -14,8 +14,12 @@
       "require": "./dist/index.cjs"
     }
   },
-  "bin": { "ow-sdk": "./dist/cli.js" },
-  "files": ["dist"],
+  "bin": {
+    "ow-sdk": "dist/cli.js"
+  },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsup",
     "typecheck": "tsc --noEmit",
@@ -35,5 +39,7 @@
     "typescript": "^5.6.0",
     "vitest": "^3.0.0"
   },
-  "publishConfig": { "access": "public" }
+  "publishConfig": {
+    "access": "public"
+  }
 }
